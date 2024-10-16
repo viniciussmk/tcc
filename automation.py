@@ -1,6 +1,6 @@
 import subprocess
 
-def run_commando(command):
+def run_command(command):
     try:
         print(f"Executando: {command}")
         subprocess.run(command, check=True, shell=True)
@@ -27,5 +27,5 @@ def automation_pipeline():
     deploy()
     print("Pipeline concluído.")
 
-if __name__ == "__main__":
+if __nae__ == "__main__":
     automation_pipeline()
