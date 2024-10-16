@@ -1,6 +1,5 @@
 import subprocess
 
-##Teste de automação de pipeline
 def run_command(command):
     try:
         print(f"Executando: {command}")
