@@ -1,7 +1,6 @@
 import subprocess
 
-#Adicionando comentário
-def run_command(command):
+def run_commando(command):
     try:
         print(f"Executando: {command}")
         subprocess.run(command, check=True, shell=True)
