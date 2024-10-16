@@ -1,5 +1,6 @@
 import subprocess
 
+#Adicionando comentário
 def run_command(command):
     try:
         print(f"Executando: {command}")
